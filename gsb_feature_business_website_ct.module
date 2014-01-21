@@ -3,3 +3,9 @@
  * @file
  * Code for the GSB Feature Business Website Content Type feature.
  */
+
+include_once 'gsb_feature_business_website_ct.features.inc';
+/**
+ * @file
+ * Code for the GSB Feature Business Website Content Type feature.
+ */
