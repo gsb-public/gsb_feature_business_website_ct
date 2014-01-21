@@ -10,8 +10,8 @@
 function gsb_feature_business_website_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-business_website-field_categories'
-  $field_instances['node-business_website-field_categories'] = array(
+  // Exported field_instance: 'node-business_website-field_bus_website_categories'
+  $field_instances['node-business_website-field_bus_website_categories'] = array(
     'bundle' => 'business_website',
     'default_value' => NULL,
     'deleted' => 0,
@@ -35,9 +35,9 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
-    'field_name' => 'field_categories',
+    'field_name' => 'field_bus_website_categories',
     'label' => 'Categories',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
