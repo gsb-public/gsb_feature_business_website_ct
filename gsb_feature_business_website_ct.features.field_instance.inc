@@ -24,7 +24,7 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 3,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -53,8 +53,8 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-business_website-field_description'
-  $field_instances['node-business_website-field_description'] = array(
+  // Exported field_instance: 'node-business_website-field_bus_website_description'
+  $field_instances['node-business_website-field_bus_website_description'] = array(
     'bundle' => 'business_website',
     'default_value' => NULL,
     'deleted' => 0,
@@ -67,18 +67,18 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'node',
-    'field_name' => 'field_description',
+    'field_name' => 'field_bus_website_description',
     'label' => 'Description',
     'required' => 0,
     'settings' => array(
@@ -93,13 +93,11 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
       'active' => 1,
       'module' => 'text',
       'settings' => array(
-        'maxlength_js' => '',
-        'maxlength_js_enforce' => 0,
+        'maxlength_js' => 1,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'maxlength_js_truncate_html' => 0,
-        'rows' => 5,
+        'size' => 100,
       ),
-      'type' => 'text_textarea',
+      'type' => 'text_textfield',
       'weight' => 2,
     ),
     'workbench_access_field' => 0,
@@ -119,13 +117,13 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 2,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
     'ds_extras_field_template' => '',
