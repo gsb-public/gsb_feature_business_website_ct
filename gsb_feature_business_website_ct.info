@@ -17,4 +17,5 @@ features[field_instance][] = node-business_website-field_bus_website_description
 features[field_instance][] = node-business_website-field_link_single
 features[node][] = business_website
 features[variable][] = field_bundle_settings_node__business_website
+features[variable][] = workbench_access_node_type_business_website
 features_exclude[taxonomy][business_website_categories] = business_website_categories
