@@ -74,16 +74,16 @@ function gsb_feature_business_website_ct_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '6',
+          'weight' => '7',
         ),
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
           'weight' => '5',
         ),
         'redirect' => array(
-          'weight' => '5',
+          'weight' => '6',
         ),
         'workbench_access' => array(
           'weight' => '4',
