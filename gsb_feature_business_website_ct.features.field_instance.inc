@@ -10,7 +10,8 @@
 function gsb_feature_business_website_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-business_website-field_bus_website_categories'
+  // Exported field_instance:
+  // 'node-business_website-field_bus_website_categories'.
   $field_instances['node-business_website-field_bus_website_categories'] = array(
     'bundle' => 'business_website',
     'default_value' => NULL,
@@ -55,7 +56,8 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-business_website-field_bus_website_description'
+  // Exported field_instance:
+  // 'node-business_website-field_bus_website_description'.
   $field_instances['node-business_website-field_bus_website_description'] = array(
     'bundle' => 'business_website',
     'default_value' => NULL,
@@ -107,7 +109,7 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-business_website-field_link_single'
+  // Exported field_instance: 'node-business_website-field_link_single'.
   $field_instances['node-business_website-field_link_single'] = array(
     'bundle' => 'business_website',
     'default_value' => NULL,
@@ -175,7 +177,7 @@ function gsb_feature_business_website_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-business_website-field_submit'
+  // Exported field_instance: 'node-business_website-field_submit'.
   $field_instances['node-business_website-field_submit'] = array(
     'bundle' => 'business_website',
     'deleted' => 0,
